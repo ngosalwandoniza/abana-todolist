@@ -1,16 +1,24 @@
-# todolist
+# abana-todolist
 
-A new Flutter project.
+Simple, tiny Flutter todo app — in-memory list for learning and demo.
 
-## Getting Started
+Features
+- Add todo items
+- Toggle done/undone
+- Swipe to delete
 
-This project is a starting point for a Flutter application.
+Quick start (PowerShell)
 
-A few resources to get you started if this is your first Flutter project:
+```powershell
+cd 'C:\Users\Ngosa Lwando Niza\Desktop\dart practice\todolist'
+flutter pub get
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Notes
+- This app stores todos in memory (no persistence). Use `hive` or `sqflite` to add storage.
+- Tests: run `flutter test` to run the simple widget test included.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+License: MIT (feel free to change)
+
+Enjoy — small, rough, learning project.
